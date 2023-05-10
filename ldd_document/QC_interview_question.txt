@@ -1,0 +1,23 @@
+1.Introduce your self
+2.strct tag{
+int a;
+char b;
+int c;
+char d;
+};
+sizeof structure?
+3.structure padding?
+4.how you will reduce bytes of abive structure?
+5.int *ptr=malloc(100*sizeof(int));
+ptr++;
+ptr++;
+ptr++;
+ptr++;
+free(ptr);
+ptr pointes to which memory location?
+6./*0x1234   ---> 0x2143*/
+
+   /*f2f4 -->2f4f*/ write c program?
+7.difference array and linked list?
+8.declare function pointer?
+9.difference between thread and process?

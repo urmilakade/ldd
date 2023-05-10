@@ -1,0 +1,469 @@
+﻿			LDD
+
+-> How a driver is added ? (using kconfig files)
+-> What is a character driver ? How it works
+-> who calls probe function 
+-> What calls are used to implement a character driver
+-> Explain flow of a character driver
+-> how IOCTL works in character Driver
+
+1.How check the kernel logs?
+2.How we can communicate between user space and kerenel space program?
+3.Implementation of character driver with API's?
+4.Explain Pthread and Kthread?
+5.Explain how system calls works? 
+
+1.Mutex and spinlocking mechanisms in drivers.
+2.Interrupts handling in kernel and applying locking mechanism on interrupts.
+3.Implementation of char driver.
+4.What is device driver and why we need it, with also debugging details.
+5.kthreads creation and deletion API's.
+
+18)atomic variable (LDD)
+19)how to insert module in kernel?
+
+1)Self introduction
+2)what is device tree
+3)what do you know about kernel
+4)Write simple kernel module
+
+Explain about device drivers?
+ > Difference between block drivers and char drivers? 
+Kernel module : 
+> How to load module? 
+> Write basic program of module? 
+> Why printk is used and command to see the msgs? 
+> Command to see the module whether loaded are not? Major and minor number : 
+> What is the importance of major number and minior number? 
+> How you will allocate major and minor numbers? Interrupts : 
+> What is ISR? 
+> Explain the flow of interrupts and how it will reaches to ISR rotuine? 
+> What is IVT? 
+> what are top halves and bottom halves? 
+> Explain the bottom halves mechanism? 
+> Limitations of Softirqs?
+
+
+
+		  OS
+
+what are sysetem calls?
+given 2 examples and asked  whether sysytem call is present if yes what resource system call is giving from kernel to user space  below
+fd= fopen("/sh/bin",0664)
+getpid();
+what are ipc mechanisms you know 
+
+what are sysetem calls?
+given 2 examples and asked  whether sysytem call is present if yes what resource system call is giving from kernel to user space  below
+fd= fopen("/sh/bin",0664)
+getpid();
+what are ipc mechanisms you know 
+what is semaphore give brief description
+
+.Difference between program and threads.
+2.Explaination on process states.
+3.Difference between mutex,spinlock and semaphore with real time applications.
+4.Explain synchronization and why it is needed.
+5.Different IPC mechanisms and brief explainations on pipe mechanism with program.
+6.Explaination on interrupts and how it works.
+7.Pthreads explaination.
+
+1. What is mutex.
+2. what is semaphore. 
+3. what is spinlock.
+4. What is the role of memory management.
+5. What is stack pointer and program counter.
+6. What is ISR. 
+7. What is user space and kernel space. How they are communicating.
+4. What is mmu.
+7. What is user space and kernel space. How they are communicating.
+8) What is top off and bottom off in interrupt
+5. What is stack pointer and program counter.
+4)what is paging?
+
+OS
+-->Interrupts(With Real Time Example)
+-->What is Race Condition
+-->Mutex and Semaphore Defination & Difference
+-->What is DeadLock
+-->What is Virtual Memory 
+-->Difference Between User Mode and Kernel Mode
+
+Linux :
+7.List out the  commands you know?
+8.Command to search for a particular string from list of files?
+9.command to give how many files and directories present in a particular folder?
+
+OS :
+-> mutex, semaphore
+-> binary semaphore vs counting semaphore, 
+-> paging, 
+-> virtual memory, 
+-> IPC's types, 
+-> pipe vs Message Queue
+-> deadlock 
+
+
+
+
+
+		    C & DS
+
+find a loop in linked list
+WAP to for power of 2 explain the logic?
+write compilation stages and explain the above program with respect to compilation stages?
+where does #include<stdio.h> is present ?
+what are present in #include<stdio.h>?
+WAP that contain main function and create library and compile the program using that library?
+ex:write main()
+write sum.c function and generate .o and link both the files using static or dinamic library.     
+what does __line__ macro does?
+what is structure? given a example and predict  how many bytes it take?
+why holes are present?
+insted of #pragma can i reduce bytes?
+tell whether holes are present in structures only?does power of 2 program contain holes? 
+write a program to remove duplicate letters in string?
+
+1.What is cicular linked list?Write a logic to create a circular linked list?
+2.Write a logic to find the loop in linked list?
+3.Which sorting algorithm is fastest?
+4.Explain Quick sort?
+5.What is Binary tree and AVL tree?
+6.Explain merge sort?
+
+1.Program to reverse array.
+2.Program for string palindrome.
+3.Program to check frequency of each elements in array in O(n).
+4.Memory layout of C with storage classes details.
+5.Stack overflow
+6.Program to find number of set bits in a give byte.
+7.Program to get bit differences between 17 and 29 of 32bit using bitwise operator.
+8.What is freed memory location and dangling pointer.
+9.What is segmentation fault.
+10.Pointer to an array and array of pointers, declarations and assignments.
+
+1.All sorting techniques with time complexity.
+
+1. Insert node at the middle of the linked list.
+2. Find nth node of the linked list.
+3. What is the use of linked list.
+4. What is the use of Data Structures.
+5. Do you know the sorting techniques, how many sorting techniques are they. Explain the bubble sort technique.
+6. What are the searching algorithms.
+
+
+1. Storage classes
+2. Dynamic memory allocation
+3. enums, structure padding
+4. Little endian and big endian
+5. What is memcpy function. What are the arguments it will take?
+6. WAP to implement own strcpy and strcat function
+7. WAP to implement size of operator 
+8. WAP to set the bit, clear the bit using macros.
+9. Print your name without using semicolon.
+
+DS:
+1. Find the middle of the linked list.
+2. Find delete nth node of the linked list.
+3. What is the use of Data Structures.
+1.All sorting techniques with time complexity.
+2.Makefile
+1)Implement getmin() function for stack?
+2)Reverse a Linked list.
+
+
+C:
+1.explain pointer concept and how to declare.
+2.Difference b/w array and string.
+3.how many ways declare  a string.
+4.wap to print the char by char in string.
+5.what is recursion.
+6.wap using recursion and explain each function call.
+7.storage class.
+8.how many types of error and how to reslove.
+9.what is the output
+int i=100;
+int *ptr=NULL;
+ptr=&i;
+int b=&i;
+
+7.  difference between array and pointer 
+8.  difference between array and structure
+9.  what is dangling pointer,enum and sizeof enum.
+10  storage classes
+11. some questions like what is tcp/ip, api's in it, types etc. (Tcp/ip is mentioned in my resume, so he asked)
+
+
+C & DS
+
+-->Storage Classes
+-->Inline Functions
+-->Difference Between Inline Functions and Functions
+-->What is Macro and Usages Over Functions
+-->What is Wild Pointer and Dangling Pointer
+-->What is Volatile Keyword(With Real Time Example)
+-->Can we use Constant and Volatile Together to a Variable
+-->Structure and Union(With Program)
+-->Enums
+-->Pointers(With Program)
+-->Memory Leak
+-->If else and Switch(which is Better,Faster and Why)
+-->Malloc and Calloc (Difference and Syntax)
+-->Can We Write Program Without main Function(With Program)
+-->Linked list and Arrays Difference
+
+C & DS :
+-> static,volatile
+-> structure padding
+-> structure vs union
+-> direct referencing and indirect referencing
+-> embedded c vs C
+-> OS vs RTOS
+-> What happens when ISR is invoked
+-> When is stack overflow and when does it occur 
+-> segmentation fault 
+-> Memory leak 
+-> program to remove duplicates using array method and linked list.
+
+In C :
+-> set all odd bits but the output should always be 5
+        ex. i/p = 7, o/p = 5;
+-> print size of a structure without using sizeof.
+-> difference between structure and union
+-> structure padding
+-> difference between mutex and semaphore 
+
+WAP to find missing element in an array 
+WAP to find the kth largest element in an unsorted array 
+Explain compilation stages 
+Detect the number is binary or not 
+Difference btw static linking and dynamic linking 
+Explain storage classes 
+Explain memory segment in c
+Difference btw structure and union 
+x=20
+y=35
+x= y++ + x++
+y= ++y + ++x
+print x, y values 
+Check whether the system is little endian and big endian 
+
+1)what is static variable and where it is stored and scope 
+2)Scope of the local variables
+3)Memory layout in detail
+4)Where the dynamically allocated variables are stored
+5)How do we access global variables in other file
+6)Own String copy function logic
+7)Structure padding
+
+
+  		Common
+
+
+
+2. What is ADB.
+3. What is GIT
+4. What is Android Boot up sequence.
+5. What is data structures.
+6. Write a program to find middle element in the single linked list.
+7. Delete particular node in the single linked list, without having the head access.
+8. how many sorting techniques are there. what is time complexity of quick sort. how to find time complexity. Which sorting technique is best.
+9. What is binary search, explain logic.
+10. Explain semaphore and mutex.What is the difference between them.
+11. Find the missing element having n-1 elements in the array.
+ex: 1,5,3,2 // n-1 elements is given, here 4 is missing. how to find it. 
+12. Explain about project mentioned in your resume.
+
+1. Introduce Your self.
+2. What is ADB.
+3. Explain Few Commands In ADB, Which You Have Worked On.
+4. What is GIT
+5. List all The Commands You Have Worked on.
+6. Explain Android Boot up sequence.
+7. What is data structures.
+8. Write a Program to Find Middle Element in the Single Linked List.
+9. Delete Particular Node in the Single Linked List, Without the Head Pointer.
+10. List the Sorting Techniques Which you Know? 
+11. What is Time Complexity of Merge Sort. 
+12. Time Complexity Notation.
+13. Binary Search Tree.
+14. Explain Semaphore and Mutex, What is the Difference Between Them.
+15. Find the Missing Element Having n-1 Elements in the Array.
+        Ex: 1,5,3,2 // n-1 Elements is Given, Here 4 is Missing. How to Find it.
+16. What is Bootstate.
+17. Time Complexity of Pushing,Popping,Peek Element into Stack and Queue.
+18. Explain About Academic Project.
+19. Explain About Project Mentioned in your Resume.
+20. Difference Between Intel Processor and ARM Processor & and Applications of it.
+21. Difference Bewteen C and Embedded C
+1.Introduce your self
+2.what is volatile keyword.
+3.explain volatile with example
+4.what is the use of static.
+5.explain storage classes
+6.difference between auto and register storage class.
+7.allocate 40 bytes on memory.
+8.what dangling pointer with example
+9.what wild pointer.
+10.what is difference between calloc and malloc(success case what it return,failure case what it return)
+11.create linked list
+12.reverse ll
+
+13.print student id,name,class using structure
+14.can you expain logic of doubly linked list.
+15.what is git?(expain some commands )
+16.what is diff b/w git clone and git pull
+17.what is ADB?
+18.what is the need of ADB.
+19.explain ADB commands
+20.what is semaphore ,mutex,spinlock?(where we can use)
+21.expain about your project ?(what is your role)
+
+1)pattern program:
+1
+12 
+123
+1234
+12345
+2)set a bit,clear a bit,toggle a bit
+3)how to find size of the variable without using sizeof operator? 
+4)malloc and calloc?
+5)mem functions and string functions (threory and program)
+6)program using thread?
+7)by using bitwise opeartion reset the particular bit
+8)find the middle element in a linked list
+9)create a linked list and sort the data in both assending and decending order
+10)little endian and big endian 
+11)string strcat own function (not predefined)
+12)double linked list 
+13)spin lock and semephore
+14)mmu(memory management unit)
+15)scheduling algorithm in os
+16)system call
+17)thread and process
+18)atomic variable (LDD)
+19)how to insert module in kernel?
+              :QC Inerview Questions:
+1)Explain your  Institute project?
+2)clear the bit?
+     clear bit(num,pos)
+     clear bit(0x2F,2)
+3)write your LCD program? which I was done in my  institute project?  
+4)which port registers are used in your project?
+5)what is the output of ptr++?
+     char arr={1,2,3,4}
+        int *ptr
+         ptr++;
+6)what is the output of ptr++?
+     char arr={1,2,3,4}
+        char *ptr
+       ptr++;
+7)Difference between  mutex and semaphore ?
+8)which case we can use union?
+9)difference between binary semaphore and counting semaphore?
+10)what is volatile keyword?what is optimization ?
+
+                
+1)what is binary semaphore and counting semaphore with real time example.
+2)what is UART and I2C?
+3)what is interrupt ,How will be execute when interrupt occurs?
+4) what is Virtual Memory and why we need?
+5) User can access phyiscal memory without virtual memory?
+6)Implement own memcpy function
+7)write macro function for toggle bits
+8)write  macro function for extract bits
+I/p : num = 0xab   , num_bits = 3 ,pos = 2
+(After 2nd bit position next 3 bits will be display as output)
+o/p : 5
+9)Write 2 thread function for odd and even and display the output in synchronisally 
+O/p : 0123456...
+
+1) How to print integer value using double pointer.
+2) How to use extern key words in two files.
+3) Delete nth node in double linked list (without passing head pointer).
+4)What is segmentation fault?When will occur?
+5) Find the Output and check is it correct ?
+        int x = 0xffffffff;
+        void *p = &x;
+        char a = (char)*p;
+        short int b = (short int)*p;
+        int c = (int)*p;
+        printf("%x, %x, %x",a,b,c);
+6) Write a function to count nodes in single linked list.
+7)Scope and Lifetime of  global,static and local variable.Where will be stored in memory ?
+8) Write a funtion to return 0 if given number is even else return 1.
+
+
+
+
+
+
+what is GIT and why we use GIT?
+how to merge two files?
+how to check commits done till now?
+what is git cherry-pick for what it is used?
+what are git commands more you know?
+1)Self introduction
+2)what is device tree
+3)what do you know about kernel
+4)Write simple kernel module
+5)WAP for user define string copy
+6)What are memory segment
+7)Diff bet malloc and calloc 
+8)SPI Protocol
+9)what is makefile
+10)What is git?what are git commands you know
+
+Android and ABD,Git:
+1.Expalin Andriod architecture?
+2.Explain Android boot-up sequence?
+3.Using ABD how to take the logs of a single device if two devices are attached?
+4.How to check the device is connected or not using ABD?
+5.What are the commands you Know in git?
+
+        Git :
+3.Commands to push code to remote repository after cloning , git add, git commit, git push
+4.Git revert 
+5.Git reset 
+6.Diff btwn commit -m and commit -a
+
+
+
+
+	
+
+
+
+
+	GIT MOCK 
+
+
+1)what is git ?
+2)what is version of git ?
+3)what is diff b/w git and git hub?
+4)what is repositary?
+5)how to install git?
+6)how to create a repositary?
+7)how to add single file?
+8)how to add multipul files into staging area?
+9)what will you do after adding?
+10)how to connect to remote repositary?
+11)how will you upload your code into remote repo?
+12)what is git clone?
+13)what is git pull origin/master do?
+14)how to create a branch?
+15)how to switch other branches?
+16)how do merge branches?
+17)to see what was new  in a commit in your repo? what is the command ?
+18)how to get the changes b/w two commit id's?
+19)what will do git fetch?
+20)diff b/w git pull and git fetch?
+21)what is staging area?
+22)what is git diff?
+23)how to recover a deleted branch?
+24)what is git cherry-pick?
+25)how to remove local untracked files?
+26)what is git reset?
+27)dif between git clean and git reset?
+28)dif between git rebase and git fetch?
+
